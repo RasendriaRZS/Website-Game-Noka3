@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!--mycss-->
+      <link rel="stylesheet" href="register.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>NOKA 3</title>
+
+    </head>
+
+    <body>
+        <!-- NAVBAR -->
+        <div class="navbar-container">
+            <div class="logo"><img class="gambar" src="gambar/logo.png"><p>NoKa 3</p></div>
+            
+            <div class="navbar-link">
+                <a href="news.html" class="link-list">NEWS</a>
+                <a href="heroes.html" class="link-list">HEROES</a>
+                <a href="register.html" class="link-list">REGISTERS</a>
+                <a href="e-sport.html" class="link-list">E-SPORTS</a>
+            </div>
+        </div>
+        <div class="form">
+            <form action="LandingPage.html" onsubmit="return validate()">
+                Username:<br>
+                <input class="username" type="text" id="username" name=""><br>
+                Email:<br>
+                <input class="email" type="text" id="Email" name=""><br>
+                Password:<br>
+                <input class="pwd" type="password" id="pwd" name=""><br><br>
+                <input  class="submit" type="submit" value="Sign Up">
+
+                <p id="error" style="color: white;"></p>
+              </form>
+        </div>
+
+        <div class="menu">
+            <a href="LandingPage.html" class="menu">&#129044;  BACK TO MENU</a>
+        </div>
+
+        <div  class="footer"><img class="gambar2" src="gambar/footer.png"></div>
+
+    </body>
+    <script src=".js/register.js"></script>
+  </html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+body {
+    background-image: url(gambar/news.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 170%;
+}
+
+
+.navbar-container {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;
+    margin-right: 20%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+.navbar-container .logo {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10px; */
+    align-items: center;
+}
+
+.logo {
+    margin-top: 0%;
+    font-family: "Jolly Lodger", cursive;
+    color: white;
+    font-size: 38px;
+    /* margin-top: 0%; */
+}
+
+
+.navbar-container .link-list {
+    text-decoration: unset;
+    color: white;
+    margin: 0px 30px;
+    font-size: 30px;
+    color: white;
+    font-family: "Playfair Display";
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gambar{
+    width: 150px; 
+    height: 150px;
+}
+
+.gambar2{
+    width: 470px; 
+    height: 270px
+}
+
+.gambar3{
+    width: 1340px; 
+    height: 110px;
+}
+
+.teks {
+    font-size: 30px;
+    color: white;
+    font-family: "Playfair Display";
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+
+.promo {
+    bottom: 500px;
+    margin-left: 100px;
+}
+
+article {
+    text-align: justify;
+    float: right;
+    padding: 5px;
+    width: 50%;
+    background-color: transparent;
+    font-size: 20px;
+  }
+.menu {
+    text-decoration: unset;
+    text-align: center;
+    color: gray;
+}
+
+.footer {
+    margin-top: 40px;
+}

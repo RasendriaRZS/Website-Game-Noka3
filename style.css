@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+body {
+    background-image: url(gambar/Group3.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+.navbar-container {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;
+    margin-right: 20%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+.navbar-container .logo {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10px; */
+    align-items: center;
+}
+
+.logo {
+    margin-top: 0%;
+    font-family: "Jolly Lodger", cursive;
+    color: white;
+    font-size: 38px;
+    /* margin-top: 0%; */
+}
+
+.gambar{
+    width: 150px; 
+    height: auto;
+}
+
+.gambar2{
+    width: 250px; 
+    height: auto;
+}
+
+
+.navbar-container .link-list {
+    text-decoration: unset;
+    color: white;
+    margin: 0px 30px;
+    font-size: 30px;
+    color: white;
+    font-family: "Playfair Display";
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teks {
+    font-size: 38px;
+    color: white;
+    font-family: "Playfair Display";
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+
+.promo {
+    float: right;
+    margin-right : 100px;
+    /* bottom: 500px;
+    margin-left: 1000px; */
+}
+
